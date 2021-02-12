@@ -8,7 +8,6 @@
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
-	border: 1px solid black;
 }
 
 html {
@@ -16,7 +15,7 @@ html {
 }
 
 body {
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 1.5;
     color: #4F4F4F;
 }
@@ -35,21 +34,111 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 1%;
 }
 
 .top h1 {
+	font-size: 7rem;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5%;
+}
+
+nav a {
+	padding: .5% 3%;
+	background: #808080;
+	color: #FFFFFF;
+	font-size: 3rem;
+	border: 1px solid black;
+} 
+
+nav a:hover {
+	background: #000000;
+	color: #800080;
+	transition: 1s;
+}
+
+.intro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 1%;
+	padding: 2%;
+}
+
+.intro .title {
+	padding: 2%;
+}
+.intro h2 {
 	font-size: 5rem;
 }
 
+.intro .wording {
+	padding: 1%;
+	font-size: 4rem;
+}
 
 
+.me {
+	width: 100%; 
+	height: 50vh;
+	background-image: url(pictures/jessica.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+} 
 
-.me img {
-	width: 15%;
+.myProjects {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.beforeAfters {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	padding: 5%;
 }
 
 
 .beforeAfters img {
-	width: 200px;
-	height: 200px;
+	width: 400px;
+	height: 600px;
+}
+
+.text {
+	padding: 0 5% 0 0;
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	font-size: 4rem;
+}
+
+footer {
+	padding: 3%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #778899;
+	
+}
+
+.contactMe {
+	padding: 1%;
+	background: #808080;
+	color: #FFFFFF;
+	font-size: 4rem;
+	border: 1px solid black;
+}
+
+.contactMe:hover {
+	background: #000000;
+	color: #800080;
+	transition: 1s;
 }
