@@ -1,0 +1,55 @@
+/* Add CSS styling here */
+
+
+/* General Settings Styles */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	border: 1px solid black;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #4F4F4F;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 3px;
+}
+
+/* Header Settings Styles */
+
+.top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.top h1 {
+	font-size: 5rem;
+}
+
+
+
+
+.me img {
+	width: 15%;
+}
+
+
+.beforeAfters img {
+	width: 200px;
+	height: 200px;
+}
