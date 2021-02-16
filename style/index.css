@@ -119,6 +119,7 @@ nav a:hover {
 }
 
 footer {
+    width: 100%;
 	padding: 3%;
 	display: flex;
 	justify-content: center;
@@ -146,11 +147,23 @@ footer {
 @media(max-width:500px) {
     .top h1 {
         text-align: center;
+        font-size: 5rem;
     }
 
     nav {
         flex-direction: column;
 
+    }
+
+    .title h2 {
+        text-align: center;
+        font-size: 3rem;
+        margin: 10%;
+    }
+
+    .wording p {
+        text-align: center;
+        font-size: 2rem;
     }
 
     .myProjects {
@@ -159,15 +172,61 @@ footer {
 
     .beforeAfters {
         width: 100%;
+        margin: 10%;
         flex-wrap: wrap;
     }
 
     .beforeAfters img {
         width: 40%;
-        /* margin: 3%; */
     }
 
     .text {
         width: 100%;
+        text-align: center;
+        font-size: 2rem;
     }
+
+    .contactMe {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:800px) {
+
+    .title h2 {
+        text-align: center;
+        font-size: 4rem;
+        margin: 10%;
+    }
+
+    .wording p {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .myProjects {
+        flex-direction: column;
+    }
+
+    .beforeAfters {
+        width: 100%;
+        margin: 10%;
+        flex-wrap: wrap;
+    }
+
+    .beforeAfters img {
+        width: 40%;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 10%;
+    }
+
+    .contactMe {
+        font-size: 3rem;
+    }
+
 }
