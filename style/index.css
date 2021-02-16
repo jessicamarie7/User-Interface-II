@@ -1,1 +1,232 @@
 /* Add CSS styling here */
+
+
+/* General Settings Styles */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #4F4F4F;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 3px;
+}
+
+/* Header Settings Styles */
+
+.top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1%;
+}
+
+.top h1 {
+	font-size: 7rem;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5%;
+}
+
+nav a {
+	padding: .5% 3%;
+	background: #808080;
+	color: #FFFFFF;
+	font-size: 3rem;
+	border: 1px solid black;
+} 
+
+nav a:hover {
+	background: #000000;
+	color: #800080;
+	transition: 1s;
+}
+
+.intro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 1%;
+	padding: 2%;
+}
+
+.intro .title {
+	padding: 2%;
+}
+.intro h2 {
+	font-size: 5rem;
+}
+
+.intro .wording {
+	padding: 1%;
+	font-size: 4rem;
+}
+
+
+/* Main Settings */
+
+.me {
+	width: 100%; 
+	height: 50vh;
+	background-image: url("../pictures/jessica.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+} 
+
+.myProjects {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.beforeAfters {
+	width: 60%;
+    /* padding: 10%; */
+	display: flex;
+	justify-content: space-between;
+    align-items: stretch;
+	padding: 5%;
+}
+
+.text {
+	padding: 0 5% 0 0;
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	font-size: 4rem;
+}
+
+footer {
+    width: 100%;
+	padding: 3%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #778899;
+	
+}
+
+.contactMe {
+	padding: 1%;
+	background: #808080;
+	color: #FFFFFF;
+	font-size: 4rem;
+	border: 1px solid black;
+}
+
+.contactMe:hover {
+	background: #000000;
+	color: #800080;
+	transition: 1s;
+}
+
+/* Media Styles */
+
+@media(max-width:500px) {
+    .top h1 {
+        text-align: center;
+        font-size: 5rem;
+    }
+
+    nav {
+        flex-direction: column;
+
+    }
+
+    .title h2 {
+        text-align: center;
+        font-size: 3rem;
+        margin: 10%;
+    }
+
+    .wording p {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .myProjects {
+        flex-direction: column;
+    }
+
+    .beforeAfters {
+        width: 100%;
+        margin: 10%;
+        flex-wrap: wrap;
+    }
+
+    .beforeAfters img {
+        width: 40%;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .contactMe {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:800px) {
+
+    .title h2 {
+        text-align: center;
+        font-size: 4rem;
+        margin: 10%;
+    }
+
+    .wording p {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .myProjects {
+        flex-direction: column;
+    }
+
+    .beforeAfters {
+        width: 100%;
+        margin: 10%;
+        flex-wrap: wrap;
+    }
+
+    .beforeAfters img {
+        width: 40%;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 10%;
+    }
+
+    .contactMe {
+        font-size: 3rem;
+    }
+
+}
